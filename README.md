@@ -1,7 +1,7 @@
 # LectioAutoAlarm
 Tjekker automatisk hvornår din første time starter næste dag, og justere en alarm i forhold til det, ved hjælp af "python-lectio library"(https://github.com/BetterLectio/python-lectio/tree/main) og Android appen "MacroDroid"(https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid&hl=en_US)
 
-### Setup
+### ScriptSetup
 der er 4 variabler som kan konfigures i scriptet.
 2 er nødvendige for at det skal virke:
 
@@ -12,3 +12,7 @@ lectio.sdk(brugernavn="{Lectio brugernavn}", adgangskode="{lectio adgangskode}",
 Udover disse er der 2 variabler som ikke er nødvendige, men er gode at sætte op for at skrædersyge din LectioAutoAlarm oplevelse:
 1. "RoutineCheckupDelaymin" denne variabel definere hvor mange minutter der skal gå, imellem hver gang scriptet skal tjekke efter om et modul er blevet aflyst.
 2. "WakeUpDelay" denne variabel definere hvor mange minutter du bruger på at gøre dig klar og nå i skole. Dette bruges i scriptet til at skubbe alarmen den mængde minutter fra mødetiden som er nødvendigt for at du kan nå i skole.
+
+### MacroDroidSetup
+
+for at alt dette skal virke, kræver det at man har en android telefon med Macrodroid installeret. herinde skal man lave en Macro, med samme indstillinger som set i billedet vedhæftet i projektet.
